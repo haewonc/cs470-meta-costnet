@@ -18,7 +18,7 @@ pip install torch==1.11.0+cu102 --extra-index-url https://download.pytorch.org/w
 pip install -r requirements.txt
 ```
 ### Saved models
-You can download ours trained [meta auto-encoder models]() and [demand prediction model]().
+You can download our trained [meta auto-encoder models](https://colab.research.google.com/drive/1QEVtSHkrpQWRFgfS4pq1NkbaADdCc6xw?usp=drive_link) and [demand prediction model](https://drive.google.com/file/d/1xoh-ZCbyMW8fwOysyYuMq3930dTXCEGb/view?usp=drive_link).
 Place them under the directory results/saved_models/
 ```
 costnet/ 

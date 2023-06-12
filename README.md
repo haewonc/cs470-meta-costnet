@@ -10,7 +10,7 @@ Please refer to the files under preprocess/.
 conda create -n $ENV_NAME$ python=3.7
 conda activate $ENV_NAME$
 
-# CUDA 11.3
+# Install compatible PyTorch 1.11.0, for example, for CUDA 11.3
 pip install torch==1.11.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113 
 # Or, CUDA 10.2 
 pip install torch==1.11.0+cu102 --extra-index-url https://download.pytorch.org/whl/cu102 
@@ -18,7 +18,7 @@ pip install torch==1.11.0+cu102 --extra-index-url https://download.pytorch.org/w
 pip install -r requirements.txt
 ```
 ### Saved models
-You can download our trained [meta auto-encoder models](https://colab.research.google.com/drive/1QEVtSHkrpQWRFgfS4pq1NkbaADdCc6xw?usp=drive_link) and [demand prediction model](https://drive.google.com/file/d/1xoh-ZCbyMW8fwOysyYuMq3930dTXCEGb/view?usp=drive_link).
+You can download our trained [meta auto-encoder models](https://drive.google.com/file/d/1yljGnvdTIKIlROFCvcmT5IlnHgErOkRv/view?usp=drive_link) and [demand prediction model](https://drive.google.com/file/d/1xoh-ZCbyMW8fwOysyYuMq3930dTXCEGb/view?usp=drive_link).
 Place them under the directory results/saved_models/
 ```
 costnet/ 
